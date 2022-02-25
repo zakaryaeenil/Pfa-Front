@@ -27,9 +27,30 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/ngx-toastr/toastr.css",
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/bootstrap/css/bootstrap.min.css",
+              "src/assets/assets/css/plugins.css",
+              "src/assets/assets/css/authentication/form-1.css",
+              "src/assets/assets/css/forms/theme-checkbox-radio.css",
+              "src/assets/assets/css/forms/switches.css",
+              "src/assets/plugins/perfect-scrollbar/perfect-scrollbar.css",
+              "src/assets/plugins/animate/animate.css",
+              "src/assets/assets/css/scrollspyNav.css",
+              "src/assets/assets/css/components/custom-modal.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/assets/js/libs/jquery-3.1.1.min.js",
+              "node_modules/@popperjs/core/dist/umd/popper.min.js",
+              "src/assets/bootstrap/js/popper.min.js",
+              "src/assets/bootstrap/js/bootstrap.min.js",
+              "src/assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js",
+              "src/assets/assets/js/app.js",
+              "src/assets/app_init.js",
+              "src/assets/assets/js/custom.js",
+              "src/assets/assets/js/authentication/form-1.js"
+            ]
           },
           "configurations": {
             "production": {
